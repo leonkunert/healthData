@@ -6,4 +6,5 @@ db:
     database: "health"
     maxIdle: 10
     maxOpen: 10
+    authkey: "foo"
 logLevel: debug

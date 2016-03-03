@@ -13,6 +13,7 @@ func initDBConnection() {
         Database: CFG.UString("db.rethink.database"),
         MaxIdle: CFG.UInt("db.rethink.maxIdle"),
         MaxOpen: CFG.UInt("db.rethink.maxOpen"),
+        AuthKey: CFG.UString("db.rethink.authkey"),
     })
     if err != nil {
         Error.Println(err.Error())
