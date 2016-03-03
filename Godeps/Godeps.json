@@ -1,0 +1,50 @@
+{
+	"ImportPath": "github.com/leonkunert/healthData",
+	"GoVersion": "go1.6",
+	"Deps": [
+		{
+			"ImportPath": "github.com/Sirupsen/logrus",
+			"Comment": "v0.9.0-15-g219c8cb",
+			"Rev": "219c8cb75c258c552e999735be6df753ffc7afdc"
+		},
+		{
+			"ImportPath": "github.com/cenkalti/backoff",
+			"Rev": "4dc77674aceaabba2c7e3da25d4c823edfb73f99"
+		},
+		{
+			"ImportPath": "github.com/dancannon/gorethink",
+			"Comment": "v1.3.2-2-ge7cac92",
+			"Rev": "e7cac92ea2bc52638791a021f212145acfedb1fc"
+		},
+		{
+			"ImportPath": "github.com/golang/protobuf/proto",
+			"Rev": "552c7b9542c194800fd493123b3798ef0a832032"
+		},
+		{
+			"ImportPath": "github.com/hailocab/go-hostpool",
+			"Rev": "e80d13ce29ede4452c43dea11e79b9bc8a15b478"
+		},
+		{
+			"ImportPath": "github.com/julienschmidt/httprouter",
+			"Comment": "v1.1-29-g77366a4",
+			"Rev": "77366a47451a56bb3ba682481eed85b64fea14e8"
+		},
+		{
+			"ImportPath": "github.com/olebedev/config",
+			"Rev": "13747a773c5077a2b8187d92f293fd07aa7c02f8"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "54535356f1d989a6072b0898d9ddc4dd7009dcd3"
+		},
+		{
+			"ImportPath": "gopkg.in/fatih/pool.v2",
+			"Rev": "cba550ebf9bce999a02e963296d4bc7a486cb715"
+		},
+		{
+			"ImportPath": "launchpad.net/~niemeyer/goyaml/beta",
+			"Comment": "64",
+			"Rev": "gustavo@niemeyer.net-20130430212904-4m1axrjcdy0eg2he"
+		}
+	]
+}
