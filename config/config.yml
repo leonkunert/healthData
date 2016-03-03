@@ -1,0 +1,9 @@
+httpPort: 5566
+baseURL: "/api/v0"
+db:
+  rethink:
+    host: "localhost:28015"
+    database: "health"
+    maxIdle: 10
+    maxOpen: 10
+logLevel: debug
