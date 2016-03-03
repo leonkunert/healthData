@@ -6,7 +6,7 @@ import (
     "net/http"
 )
 
-func ParsePostBody(res http.ResponseWriter, req *http.Request) []byte {
+func ReadPostBody(res http.ResponseWriter, req *http.Request) []byte {
     // Read body
     data, err := ioutil.ReadAll(req.Body)
     if err != nil {

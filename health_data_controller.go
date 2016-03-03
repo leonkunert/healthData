@@ -7,7 +7,7 @@ import (
 
 func addHealthData(res http.ResponseWriter, req *http.Request, _ httprouter.Params) {
     // Read body
-    data := ParsePostBody(res, req)
+    data := ReadPostBody(res, req)
     // unmarshal json
     hd, err := marshalHealthData(data)
     if err != nil {
